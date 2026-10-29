@@ -1,0 +1,14 @@
+<configuration>
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <!-- sshj reports the normal end of a forwarded stream (tunnel closed) as ERROR -->
+    <logger name="net.schmizz.concurrent.Promise" level="OFF"/>
+    <logger name="net.schmizz.sshj.common.StreamCopier" level="OFF"/>
+    <logger name="org.apache.sshd" level="WARN"/>
+    <root level="INFO">
+        <appender-ref ref="console"/>
+    </root>
+</configuration>

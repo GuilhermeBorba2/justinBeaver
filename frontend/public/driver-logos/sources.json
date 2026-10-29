@@ -1,0 +1,318 @@
+[
+  {
+    "file": "altibase-altibase_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.altibase/icons/altibase_icon_big@2x.png"
+  },
+  {
+    "file": "clickhouse-clickhouse_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.clickhouse/icons/clickhouse_icon_big@2x.png"
+  },
+  {
+    "file": "dameng-dm_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.dameng/icons/dm_icon_big@2x.png"
+  },
+  {
+    "file": "databend-databend_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.databend/icons/databend_icon_big@2x.png"
+  },
+  {
+    "file": "db2.i-db2_i_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.db2.i/icons/db2_i_icon_big@2x.png"
+  },
+  {
+    "file": "db2.zos-db2_zos_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.db2.zos/icons/db2_zos_icon_big@2x.png"
+  },
+  {
+    "file": "db2-db2_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.db2/icons/db2_icon_big@2x.png"
+  },
+  {
+    "file": "exasol-exasol_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.exasol/icons/exasol_icon_big@2x.png"
+  },
+  {
+    "file": "firebird-firebird_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.firebird/icons/firebird_icon_big@2x.png"
+  },
+  {
+    "file": "gbase8s-gbase8s_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.gbase8s/icons/gbase8s_icon_big@2x.png"
+  },
+  {
+    "file": "generic-apache_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/apache_icon_big@2x.png"
+  },
+  {
+    "file": "generic-calcite_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/calcite_icon_big@2x.png"
+  },
+  {
+    "file": "generic-cratedb_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/cratedb_icon_big@2x.png"
+  },
+  {
+    "file": "generic-csv_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/csv_icon_big@2x.png"
+  },
+  {
+    "file": "generic-cubrid_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/cubrid_icon_big@2x.png"
+  },
+  {
+    "file": "generic-databricks_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/databricks_icon_big@2x.png"
+  },
+  {
+    "file": "generic-dbf_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/dbf_icon_big@2x.png"
+  },
+  {
+    "file": "generic-derby_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/derby_icon_big@2x.png"
+  },
+  {
+    "file": "generic-dolphindb_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/dolphindb_icon_big@2x.png"
+  },
+  {
+    "file": "generic-drill_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/drill_icon_big@2x.png"
+  },
+  {
+    "file": "generic-duckdb_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/duckdb_icon_big@2x.png"
+  },
+  {
+    "file": "generic-elasticsearch_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/elasticsearch_icon_big@2x.png"
+  },
+  {
+    "file": "generic-gemfire_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/gemfire_icon_big@2x.png"
+  },
+  {
+    "file": "generic-h2_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/h2_icon_big@2x.png"
+  },
+  {
+    "file": "generic-hive_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/hive_icon_big@2x.png"
+  },
+  {
+    "file": "generic-hsqldb_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/hsqldb_icon_big@2x.png"
+  },
+  {
+    "file": "generic-ignite_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/ignite_icon_big@2x.png"
+  },
+  {
+    "file": "generic-informix_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/informix_icon_big@2x.png"
+  },
+  {
+    "file": "generic-intersystems_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/intersystems_icon_big@2x.png"
+  },
+  {
+    "file": "generic-jdbcx_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/jdbcx_icon_big@2x.png"
+  },
+  {
+    "file": "generic-kyuubi_hive_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/kyuubi_hive_icon_big@2x.png"
+  },
+  {
+    "file": "generic-monetdb_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/monetdb_icon_big@2x.png"
+  },
+  {
+    "file": "generic-msaccess_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/msaccess_icon_big@2x.png"
+  },
+  {
+    "file": "generic-neo4j_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/neo4j_icon_big@2x.png"
+  },
+  {
+    "file": "generic-nuodb_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/nuodb_icon_big@2x.png"
+  },
+  {
+    "file": "generic-omnisci_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/omnisci_icon_big@2x.png"
+  },
+  {
+    "file": "generic-opendistro_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/opendistro_icon_big@2x.png"
+  },
+  {
+    "file": "generic-opensearch_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/opensearch_icon_big@2x.png"
+  },
+  {
+    "file": "generic-orientdb_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/orientdb_icon_big@2x.png"
+  },
+  {
+    "file": "generic-phoenix_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/phoenix_icon_big@2x.png"
+  },
+  {
+    "file": "generic-presto_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/presto_icon_big@2x.png"
+  },
+  {
+    "file": "generic-salesforce_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/salesforce_icon_big@2x.png"
+  },
+  {
+    "file": "generic-solr_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/solr_icon_big@2x.png"
+  },
+  {
+    "file": "generic-spark_hive_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/spark_hive_icon_big@2x.png"
+  },
+  {
+    "file": "generic-sqream_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/sqream_icon_big@2x.png"
+  },
+  {
+    "file": "generic-tdengine_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/tdengine_icon_big@2x.png"
+  },
+  {
+    "file": "generic-teiid_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/teiid_icon_big@2x.png"
+  },
+  {
+    "file": "generic-teradata_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/teradata_icon_big@2x.png"
+  },
+  {
+    "file": "generic-trino_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/trino_icon_big@2x.png"
+  },
+  {
+    "file": "generic-virtuoso_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/virtuoso_icon_big@2x.png"
+  },
+  {
+    "file": "greenplum-cloudberry_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.greenplum/icons/cloudberry_icon_big@2x.png"
+  },
+  {
+    "file": "greenplum-greenplum_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.greenplum/icons/greenplum_icon_big@2x.png"
+  },
+  {
+    "file": "h2-h2gis_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.h2/icons/h2gis_icon_big@2x.png"
+  },
+  {
+    "file": "hana-sap_hana_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.hana/icons/sap_hana_icon_big@2x.png"
+  },
+  {
+    "file": "mssql-azure_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.mssql/icons/azure_icon_big@2x.png"
+  },
+  {
+    "file": "mssql-bbfsh_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.mssql/icons/bbfsh_icon_big@2x.png"
+  },
+  {
+    "file": "mssql-mssql_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.mssql/icons/mssql_icon_big@2x.png"
+  },
+  {
+    "file": "mssql-sybase_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.mssql/icons/sybase_icon_big@2x.png"
+  },
+  {
+    "file": "mysql-mariadb_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.mysql/icons/mariadb_icon_big@2x.png"
+  },
+  {
+    "file": "mysql-mysql_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.mysql/icons/mysql_icon_big@2x.png"
+  },
+  {
+    "file": "mysql-starRocks_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.mysql/icons/starRocks_icon_big@2x.png"
+  },
+  {
+    "file": "oceanbase-ob_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.oceanbase/icons/ob_icon_big@2x.png"
+  },
+  {
+    "file": "ocient-ocient_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.ocient/icons/ocient_icon_big@2x.png"
+  },
+  {
+    "file": "oracle-oracle_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.oracle/icons/oracle_icon_big@2x.png"
+  },
+  {
+    "file": "postgresql-cockroach_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.postgresql/icons/cockroach_icon_big@2x.png"
+  },
+  {
+    "file": "postgresql-google_cloud_sql_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.postgresql/icons/google_cloud_sql_icon_big@2x.png"
+  },
+  {
+    "file": "postgresql-materialize_icon_big.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.postgresql/icons/materialize_icon_big.png"
+  },
+  {
+    "file": "postgresql-postgresql_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.postgresql/icons/postgresql_icon_big@2x.png"
+  },
+  {
+    "file": "postgresql-redshift_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.postgresql/icons/redshift_icon_big@2x.png"
+  },
+  {
+    "file": "postgresql-risingwave_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.postgresql/icons/risingwave_icon_big@2x.png"
+  },
+  {
+    "file": "postgresql-timescale_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.postgresql/icons/timescale_icon_big@2x.png"
+  },
+  {
+    "file": "postgresql-yellowbrick_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.postgresql/icons/yellowbrick_icon_big@2x.png"
+  },
+  {
+    "file": "postgresql-yugabyte_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.postgresql/icons/yugabyte_icon_big@2x.png"
+  },
+  {
+    "file": "snowflake-snowflake_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.snowflake/icons/snowflake_icon_big@2x.png"
+  },
+  {
+    "file": "spanner-spanner_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.spanner/icons/spanner_icon_big@2x.png"
+  },
+  {
+    "file": "sqlite-sqlite_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.sqlite/icons/sqlite_icon_big@2x.png"
+  },
+  {
+    "file": "tidb-tidb_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.tidb/icons/tidb_icon_big@2x.png"
+  },
+  {
+    "file": "vertica-vertica_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.vertica/icons/vertica_icon_big@2x.png"
+  },
+  {
+    "file": "generic-machbase_icon_big@2x.png",
+    "source": "https://raw.githubusercontent.com/dbeaver/dbeaver/25.0.2/plugins/org.jkiss.dbeaver.ext.generic/icons/machbase_icon_big@2x.png"
+  }
+]

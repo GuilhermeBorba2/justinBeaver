@@ -1,0 +1,13 @@
+drivers:
+  - id: mysql-jdbc
+    label: MySQL
+    className: com.mysql.cj.jdbc.Driver
+    sampleUrl: "jdbc:mysql://{host}[:{port}]/[{database}]"
+    defaultPort: 3306
+    defaultUser: root
+    dialect: mysql
+    categories: [sql]
+    promoted: 1
+    description: "MySQL 8 and newer (Connector/J)"
+    libraries:
+      - maven: "com.mysql:mysql-connector-j:9.1.0"

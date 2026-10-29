@@ -1,0 +1,13 @@
+drivers:
+  - id: mariadb-jdbc
+    label: MariaDB
+    className: org.mariadb.jdbc.Driver
+    sampleUrl: "jdbc:mariadb://{host}[:{port}]/[{database}]"
+    defaultPort: 3306
+    defaultUser: root
+    dialect: mariadb
+    categories: [sql]
+    promoted: 1
+    description: "MariaDB Connector/J"
+    libraries:
+      - maven: "org.mariadb.jdbc:mariadb-java-client:3.5.11"

@@ -1,0 +1,1574 @@
+# Driver catalog derived from the driver declarations (plugin.xml) of DBeaver Community Edition 25.0.2,
+# Copyright DBeaver Corp, licensed under the Apache License 2.0 (https://github.com/dbeaver/dbeaver).
+# Generated: id, label, driver class, URL template, defaults, categories and Maven coordinates only.
+# "RELEASE"/"LATEST" versions resolve to the newest stable version on Maven Central.
+{
+ "drivers": [
+  {
+   "id": "Altibase",
+   "label": "Altibase",
+   "className": "Altibase.jdbc.driver.AltibaseDriver",
+   "sampleUrl": "jdbc:Altibase://{host}:{port}/{database}",
+   "defaultPort": 20300,
+   "defaultDatabase": "mydb",
+   "defaultUser": "SYS",
+   "description": "Altibase JDBC Driver",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.altibase:altibase-jdbc:7.1.0.9.0"
+    }
+   ]
+  },
+  {
+   "id": "yandex_clickhouse",
+   "label": "ClickHouse (Legacy)",
+   "className": "com.clickhouse.jdbc.ClickHouseDriver",
+   "sampleUrl": "jdbc:clickhouse://{host}:{port}[/{database}]",
+   "defaultPort": 8123,
+   "description": "ClickHouse legacy driver (server version < 21.3)",
+   "categories": [
+    "analytic",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "ru.yandex.clickhouse:clickhouse-jdbc:0.3.2"
+    }
+   ]
+  },
+  {
+   "id": "com_clickhouse",
+   "label": "ClickHouse",
+   "className": "com.clickhouse.jdbc.ClickHouseDriver",
+   "sampleUrl": "jdbc:clickhouse://{host}:{port}[/{database}]",
+   "defaultPort": 8123,
+   "description": "Official ClickHouse driver (server version 21.3+)",
+   "categories": [
+    "analytic",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.clickhouse:clickhouse-jdbc:0.6.1"
+    },
+    {
+     "maven": "org.apache.httpcomponents.client5:httpclient5:5.2.3"
+    }
+   ]
+  },
+  {
+   "id": "cubrid_jdbc",
+   "label": "CUBRID",
+   "className": "cubrid.jdbc.driver.CUBRIDDriver",
+   "sampleUrl": "jdbc:CUBRID:{host}:{port}:{database}:::",
+   "defaultPort": 30000,
+   "description": "CUBRID JDBC driver",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "cubrid:cubrid-jdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "dameng",
+   "label": "Dameng",
+   "className": "dm.jdbc.driver.DmDriver",
+   "sampleUrl": "jdbc:dm://{host}[:{port}]",
+   "defaultPort": 5236,
+   "defaultUser": "SYSDBA",
+   "description": "Dameng JDBC driver",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.dameng:DmJdbcDriver18:8.1.3.62"
+    }
+   ]
+  },
+  {
+   "id": "databend",
+   "label": "Databend",
+   "className": "com.databend.jdbc.DatabendDriver",
+   "sampleUrl": "jdbc:databend://{username}:{password}@{host}:{port}[/{database}]",
+   "defaultPort": 8000,
+   "description": "Databend driver (server version 1.0.0+)",
+   "categories": [
+    "analytic",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.databend:databend-jdbc:0.3.1"
+    }
+   ]
+  },
+  {
+   "id": "databricks-native",
+   "label": "Azure Databricks",
+   "className": "com.databricks.client.jdbc.Driver",
+   "description": "Azure Databricks driver",
+   "categories": [
+    "analytic",
+    "cloud",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.databricks:databricks-jdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "db2_iseries",
+   "label": "Db2 for IBM i",
+   "className": "com.ibm.as400.access.AS400JDBCDriver",
+   "sampleUrl": "jdbc:as400://{host};[libraries={database};]",
+   "defaultPort": 446,
+   "description": "IBM Db2 driver for IBM i (replacement for iSeries and AS/400)",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "net.sf.jt400:jt400:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "db2_zos",
+   "label": "Db2 for z/OS",
+   "className": "com.ibm.db2.jcc.DB2Driver",
+   "sampleUrl": "jdbc:db2://{host}[:{port}]/{database}",
+   "defaultPort": 50000,
+   "description": "IBM Db2 driver for z/OS",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.ibm.db2:jcc:11.5.9.0"
+    }
+   ]
+  },
+  {
+   "id": "db2",
+   "label": "Db2 for LUW",
+   "className": "com.ibm.db2.jcc.DB2Driver",
+   "sampleUrl": "jdbc:db2://{host}[:{port}]/{database}",
+   "defaultPort": 50000,
+   "description": "IBM Db2 for Linux/Unix/Windows driver",
+   "categories": [
+    "sql"
+   ],
+   "promoted": 1,
+   "libraries": [
+    {
+     "maven": "com.ibm.db2:jcc:11.5.9.0"
+    }
+   ]
+  },
+  {
+   "id": "exasol",
+   "label": "Exasol",
+   "className": "com.exasol.jdbc.EXADriver",
+   "sampleUrl": "jdbc:exa:{host}[:{port}][;schema={database}]",
+   "defaultPort": 8563,
+   "description": "Exasol JDBC driver",
+   "categories": [
+    "analytic",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.exasol:exasol-jdbc:7.1.16"
+    }
+   ]
+  },
+  {
+   "id": "jaybird",
+   "label": "Firebird",
+   "className": "org.firebirdsql.jdbc.FBDriver",
+   "sampleUrl": "jdbc:firebirdsql://{host}:{port}/{file}",
+   "defaultPort": 3050,
+   "defaultUser": "SYSDBA",
+   "description": "Firebird Jaybird driver",
+   "categories": [
+    "embedded",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.firebirdsql.jdbc:jaybird:5.0.4.java11"
+    }
+   ]
+  },
+  {
+   "id": "gbase8s",
+   "label": "GBase 8s",
+   "className": "com.gbasedbt.jdbc.Driver",
+   "sampleUrl": "jdbc:gbasedbt-sqli://{host}:{port}/{database}:GBASEDBTSERVER={server}",
+   "defaultPort": 9088,
+   "defaultUser": "gbasedbt",
+   "description": "GBase 8s JDBC driver",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.gbasedbt:jdbc:3.5.1"
+    }
+   ]
+  },
+  {
+   "id": "opensearch",
+   "label": "OpenSearch",
+   "className": "org.opensearch.jdbc.Driver",
+   "sampleUrl": "jdbc:opensearch://[{scheme}://][{host}][:{port}]",
+   "defaultPort": 443,
+   "description": "OpenSearch open source search and analytics suite (ex ElasticSearch)",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.opensearch.driver:opensearch-sql-jdbc:1.4.0.1"
+    }
+   ]
+  },
+  {
+   "id": "informix",
+   "label": "Informix",
+   "className": "com.informix.jdbc.IfxDriver",
+   "sampleUrl": "jdbc:informix-sqli://{host}:{port}/{database}:INFORMIXSERVER={server}",
+   "defaultPort": 1533,
+   "description": "IBM Informix Dynamic Server",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.ibm.informix:jdbc:4.50.10.1"
+    }
+   ]
+  },
+  {
+   "id": "derby",
+   "label": "Derby Embedded",
+   "className": "org.apache.derby.jdbc.EmbeddedDriver",
+   "sampleUrl": "jdbc:derby:{folder}",
+   "description": "Derby (Java DB) embedded driver",
+   "categories": [
+    "embedded",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.apache.derby:derby:10.16.1.1"
+    },
+    {
+     "maven": "org.apache.derby:derbytools:10.16.1.1"
+    },
+    {
+     "maven": "org.apache.derby:derbyshared:10.16.1.1"
+    }
+   ]
+  },
+  {
+   "id": "derby_server",
+   "label": "Derby Server",
+   "className": "org.apache.derby.client.ClientAutoloadedDriver",
+   "sampleUrl": "jdbc:derby://{host}:{port}/{database};create=false",
+   "defaultPort": 1527,
+   "description": "Derby (Java DB) server driver",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.apache.derby:derby:10.16.1.1"
+    },
+    {
+     "maven": "org.apache.derby:derbyclient:10.16.1.1"
+    },
+    {
+     "maven": "org.apache.derby:derbytools:10.16.1.1"
+    },
+    {
+     "maven": "org.apache.derby:derbyshared:10.16.1.1"
+    }
+   ]
+  },
+  {
+   "id": "hsqldb_server",
+   "label": "HSQL Server",
+   "className": "org.hsqldb.jdbcDriver",
+   "sampleUrl": "jdbc:hsqldb:hsql://{host}[:{port}]/[{database}]",
+   "defaultPort": 9001,
+   "description": "HyperSQL DataBase - Server Mode",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.hsqldb:hsqldb:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "hsqldb_embedded",
+   "label": "HSQL Embedded",
+   "className": "org.hsqldb.jdbc.JDBCDriver",
+   "sampleUrl": "jdbc:hsqldb:file:{folder}",
+   "description": "HyperSQL DataBase - Embedded Mode",
+   "categories": [
+    "embedded",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.hsqldb:hsqldb:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "iris",
+   "label": "InterSystems IRIS",
+   "className": "com.intersystems.jdbc.IRISDriver",
+   "sampleUrl": "jdbc:IRIS://{host}:{port}/{database}",
+   "defaultPort": 1972,
+   "description": "InterSystems IRIS.",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.intersystems:intersystems-jdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "duckdb_jdbc",
+   "label": "DuckDB",
+   "className": "org.duckdb.DuckDBDriver",
+   "sampleUrl": "jdbc:duckdb:{file}",
+   "description": "DuckDB JDBC driver",
+   "categories": [
+    "embedded",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.duckdb:duckdb_jdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "teradata",
+   "label": "Teradata",
+   "className": "com.teradata.jdbc.TeraDriver",
+   "sampleUrl": "jdbc:teradata://{host}/[DATABASE={database},]DBS_PORT={port}",
+   "defaultPort": 1025,
+   "description": "Teradata JDBC Type 4 driver",
+   "categories": [
+    "analytic",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.teradata.jdbc:terajdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "csvjdbc",
+   "label": "CSV Basic",
+   "className": "org.relique.jdbc.csv.CsvDriver",
+   "sampleUrl": "jdbc:relique:csv:{folder}",
+   "description": "CsvJdbc driver for handling CSV files. Included in DBeaver Community Edition.",
+   "categories": [
+    "embedded",
+    "file"
+   ],
+   "libraries": [
+    {
+     "maven": "net.sourceforge.csvjdbc:csvjdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "csvjdbc_dbf",
+   "label": "DBF",
+   "className": "org.relique.jdbc.csv.CsvDriver",
+   "sampleUrl": "jdbc:relique:csv:{folder}",
+   "description": "CsvJdbc driver for DBF files",
+   "categories": [
+    "embedded",
+    "file"
+   ],
+   "libraries": [
+    {
+     "maven": "net.sourceforge.csvjdbc:csvjdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "jdbcx",
+   "label": "JDBCX",
+   "className": "io.github.jdbcx.WrappedDriver",
+   "sampleUrl": "jdbcx:[extension:][vendor://{host}[:{port}][/{database}]]",
+   "description": "Extended JDBC driver for dynamic multi-language queries with optional bridge server for federated datasource connectivity.",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "io.github.jdbcx:jdbcx-driver:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "msaccess_ucanaccess",
+   "label": "MS Access (UCanAccess)",
+   "className": "net.ucanaccess.jdbc.UcanaccessDriver",
+   "sampleUrl": "jdbc:ucanaccess://{file}",
+   "description": "Microsoft Access driver",
+   "categories": [
+    "embedded",
+    "file",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "net.sf.ucanaccess:ucanaccess:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "nuodb",
+   "label": "NuoDB",
+   "className": "com.nuodb.jdbc.Driver",
+   "sampleUrl": "jdbc:com.nuodb://{host}[:{port}]/[{database}]",
+   "description": "NuoDB",
+   "categories": [
+    "cloud",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.nuodb.jdbc:nuodb-jdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "phoenix_hbase",
+   "label": "Apache Phoenix",
+   "className": "org.apache.phoenix.jdbc.PhoenixDriver",
+   "sampleUrl": "jdbc:phoenix:{host}[:{port}]",
+   "defaultPort": 2181,
+   "description": "Thin driver for Apache Phoenix HBase Database",
+   "categories": [
+    "hadoop"
+   ],
+   "libraries": [
+    {
+     "maven": "org.apache.phoenix:phoenix-client:4.14.1-HBase-1.4"
+    }
+   ]
+  },
+  {
+   "id": "gemfire_xd",
+   "label": "Gemfire XD",
+   "className": "com.pivotal.gemfirexd.jdbc.ClientDriver",
+   "sampleUrl": "jdbc:gemfirexd://{host}[:{port}]/",
+   "defaultPort": 1527,
+   "description": "Pivotal GemfireXD",
+   "categories": [
+    "hadoop"
+   ],
+   "libraries": [
+    {
+     "maven": "io.snappydata:gemfirexd-client:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "spark_hive",
+   "label": "Apache Spark",
+   "className": "org.apache.hive.jdbc.HiveDriver",
+   "sampleUrl": "jdbc:hive2://{host}[:{port}][/{database}]",
+   "defaultPort": 10000,
+   "description": "Spark Thrift Server connector",
+   "categories": [
+    "hadoop"
+   ],
+   "libraries": [
+    {
+     "maven": "org.spark-project.hive:hive-jdbc:RELEASE"
+    },
+    {
+     "maven": "org.apache.hadoop:hadoop-core:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "kyuubi_hive",
+   "label": "Apache Kyuubi",
+   "className": "org.apache.kyuubi.jdbc.KyuubiHiveDriver",
+   "sampleUrl": "jdbc:hive2://{host}[:{port}][/{database}]",
+   "defaultPort": 10009,
+   "description": "Kyuubi Thrift Server connector",
+   "categories": [
+    "hadoop"
+   ],
+   "libraries": [
+    {
+     "maven": "org.apache.kyuubi:kyuubi-hive-jdbc-shaded:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "apache_drill",
+   "label": "Apache Drill",
+   "className": "org.apache.drill.jdbc.Driver",
+   "sampleUrl": "jdbc:drill:zk={host}/{server}[;schema={database}]",
+   "description": "Apache Drill JDBC",
+   "categories": [
+    "hadoop"
+   ],
+   "libraries": [
+    {
+     "maven": "org.apache.drill.exec:drill-jdbc-all:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "virtuoso_opensource",
+   "label": "Virtuoso",
+   "className": "virtuoso.jdbc4.Driver",
+   "sampleUrl": "jdbc:virtuoso://{host}:{port}/DATABASE={database}/CHARSET=UTF-8",
+   "defaultPort": 1111,
+   "description": "OpenLink Virtuoso open source driver",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.openlinksw:virtjdbc4_3:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "machbase",
+   "label": "Machbase",
+   "className": "com.machbase.jdbc.MachDriver",
+   "sampleUrl": "jdbc:machbase://{host}/mhdb",
+   "defaultPort": 5656,
+   "description": "MACHBASE standard driver",
+   "categories": [
+    "timeseries"
+   ],
+   "libraries": [
+    {
+     "maven": "com.machbase:machjdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "tdengine",
+   "label": "TDengine",
+   "className": "com.taosdata.jdbc.rs.RestfulDriver",
+   "sampleUrl": "jdbc:TAOS-RS://{host}:{port}/[{db}]",
+   "defaultPort": 6041,
+   "description": "TDengine driver",
+   "categories": [
+    "timeseries"
+   ],
+   "libraries": [
+    {
+     "maven": "com.taosdata.jdbc:taos-jdbcdriver:3.2.7"
+    }
+   ]
+  },
+  {
+   "id": "tdengine_cloud",
+   "label": "TDengine Cloud",
+   "className": "com.taosdata.jdbc.rs.RestfulDriver",
+   "description": "TDengine Cloud driver",
+   "categories": [
+    "timeseries"
+   ],
+   "libraries": [
+    {
+     "maven": "com.taosdata.jdbc:taos-jdbcdriver:3.2.7"
+    }
+   ]
+  },
+  {
+   "id": "DolphinDB",
+   "label": "DolphinDB",
+   "className": "com.dolphindb.jdbc.Driver",
+   "sampleUrl": "jdbc:dolphindb://{host}:{port}",
+   "defaultPort": 8848,
+   "description": "DolphinDB Driver",
+   "categories": [
+    "analytic",
+    "sql",
+    "timeseries"
+   ],
+   "libraries": [
+    {
+     "maven": "com.dolphindb:jdbc:3.00.1.0"
+    }
+   ]
+  },
+  {
+   "id": "orientdb_jdbc",
+   "label": "OrientDB",
+   "className": "com.orientechnologies.orient.jdbc.OrientJdbcDriver",
+   "sampleUrl": "jdbc:orient:remote:{host}/{database}",
+   "description": "OrientDB JDBC driver",
+   "categories": [
+    "graph"
+   ],
+   "libraries": [
+    {
+     "maven": "com.orientechnologies:orientdb-jdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "neo4j_jdbc",
+   "label": "Neo4j",
+   "className": "org.neo4j.jdbc.Driver",
+   "sampleUrl": "jdbc:neo4j:bolt://{host}[:{port}]/",
+   "defaultPort": 7687,
+   "description": "Neo4j JDBC driver",
+   "categories": [
+    "graph"
+   ],
+   "libraries": [
+    {
+     "maven": "org.neo4j:neo4j-jdbc-driver:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "presto_jdbc",
+   "label": "PrestoDB",
+   "className": "com.facebook.presto.jdbc.PrestoDriver",
+   "sampleUrl": "jdbc:presto://{host}:{port}[/{database}]",
+   "defaultPort": 8080,
+   "description": "Facebook Presto (prestodb) JDBC driver",
+   "categories": [
+    "hadoop",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.facebook.presto:presto-jdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "prestosql_jdbc",
+   "label": "PrestoSQL",
+   "className": "io.prestosql.jdbc.PrestoDriver",
+   "sampleUrl": "jdbc:presto://{host}:{port}[/{database}]",
+   "defaultPort": 8080,
+   "description": "Community Presto (prestosql) JDBC driver, use Trino for newer releases",
+   "categories": [
+    "hadoop",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "io.prestosql:presto-jdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "trino_jdbc",
+   "label": "Trino",
+   "className": "io.trino.jdbc.TrinoDriver",
+   "sampleUrl": "jdbc:trino://{host}:{port}[/{database}]",
+   "defaultPort": 8080,
+   "description": "Trino JDBC driver, newer replacement for PrestoSQL",
+   "categories": [
+    "hadoop",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "io.trino:trino-jdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "apache_solrj",
+   "label": "Solr",
+   "className": "org.apache.solr.client.solrj.io.sql.DriverImpl",
+   "sampleUrl": "jdbc:solr://{host}:{port}/[?collection={database}]",
+   "defaultPort": 9983,
+   "description": "Apache SolrJ JDBC driver",
+   "categories": [
+    "fulltext"
+   ],
+   "libraries": [
+    {
+     "maven": "org.apache.solr:solr-solrj:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "monetdb",
+   "label": "MonetDB",
+   "className": "nl.cwi.monetdb.jdbc.MonetDriver",
+   "sampleUrl": "jdbc:monetdb://{host}[:{port}]/[{database}]",
+   "defaultPort": 50000,
+   "description": "MonetDB JDBC driver",
+   "categories": [
+    "analytic",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "monetdb:monetdb-jdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "apache_ignite",
+   "label": "Apache Ignite",
+   "className": "org.apache.ignite.IgniteJdbcThinDriver",
+   "sampleUrl": "jdbc:ignite:thin://{host}[:{port}][;schema={database}]",
+   "description": "Apache Ignite JDBC driver",
+   "categories": [
+    "hadoop"
+   ],
+   "libraries": [
+    {
+     "maven": "org.apache.ignite:ignite-core:2.16.0"
+    }
+   ]
+  },
+  {
+   "id": "omnisci_mapd",
+   "label": "OmniSci (formerly MapD)",
+   "className": "com.omnisci.jdbc.OmniSciDriver",
+   "sampleUrl": "jdbc:omnisci:{host}:{port}:{database}",
+   "defaultPort": 6274,
+   "description": "OmniSci (formerly MapD) SQL Analytics Engine",
+   "categories": [
+    "analytic",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.omnisci:omnisci-jdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "cratedb",
+   "label": "CrateDB (Legacy)",
+   "className": "io.crate.client.jdbc.CrateDriver",
+   "sampleUrl": "crate://{host}[:{port}]/",
+   "defaultPort": 5432,
+   "description": "CrateDB JDBC driver",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "io.crate:crate-jdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "sqream_db",
+   "label": "SQream DB",
+   "className": "com.sqream.jdbc.SQDriver",
+   "sampleUrl": "jdbc:Sqream://{host}:{port}/{database};cluster=true",
+   "defaultPort": 3108,
+   "description": "SQream DB - SQL Data Warehouse",
+   "categories": [
+    "analytic",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.sqream:sqream-jdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "apache_calcite_avatica",
+   "label": "Apache Calcite Avatica",
+   "className": "org.apache.calcite.avatica.remote.Driver",
+   "sampleUrl": "jdbc:avatica:remote:url=http://{host}:{port}/druid/v2/sql/avatica/",
+   "defaultPort": 8082,
+   "description": "Apache Calcite Avatica JDBC driver. Supports Apache Druid",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.apache.calcite.avatica:avatica-core:1.23.0"
+    }
+   ]
+  },
+  {
+   "id": "apache_kylin",
+   "label": "Apache Kylin",
+   "className": "org.apache.kylin.jdbc.Driver",
+   "sampleUrl": "jdbc:kylin://{host}:{port}/{database}",
+   "defaultPort": 443,
+   "description": "Apache Kylin JDBC driver",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.apache.kylin:kylin-jdbc:RELEASE"
+    },
+    {
+     "maven": "javax.xml.bind:jaxb-api:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "db2_luw_old",
+   "label": "Db2 for LUW (Old 8.x)",
+   "className": "com.ibm.db2.jcc.DB2Driver",
+   "sampleUrl": "jdbc:db2://{host}[:{port}]/{database}",
+   "defaultPort": 50000,
+   "description": "DB2 LUW driver for older DB2 versions (8.x)",
+   "libraries": [
+    {
+     "maven": "com.ibm.db2:jcc:11.5.9.0"
+    }
+   ]
+  },
+  {
+   "id": "mysql3",
+   "label": "MySQL (Old)",
+   "className": "com.mysql.jdbc.Driver",
+   "sampleUrl": "jdbc:mysql://{host}[:{port}]/[{database}]",
+   "defaultPort": 3306,
+   "description": "Driver for MySQL (4.x and earlier)",
+   "libraries": [
+    {
+     "maven": "mysql:mysql-connector-java:5.1.49"
+    }
+   ]
+  },
+  {
+   "id": "postgresql_generic",
+   "label": "PostgreSQL (Old)",
+   "className": "org.postgresql.Driver",
+   "providerId": "postgresql",
+   "sampleUrl": "jdbc:postgresql://{host}[:{port}]/[{database}]",
+   "defaultPort": 5432,
+   "description": "PostgreSQL JDBC driver. Can be used for old PostgreSQL versions or some PostgreSQL based databases (before 8.x).",
+   "libraries": [
+    {
+     "maven": "org.postgresql:postgresql:42.7.2"
+    }
+   ]
+  },
+  {
+   "id": "salesforce_datacloud",
+   "label": "Salesforce Data Cloud",
+   "className": "com.salesforce.datacloud.jdbc.DataCloudJDBCDriver",
+   "sampleUrl": "jdbc:salesforce-datacloud://{database}",
+   "defaultDatabase": "login.salesforce.com",
+   "description": "Salesforce Data Cloud JDBC driver",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.salesforce.datacloud:jdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "teiid",
+   "label": "Teiid",
+   "className": "org.teiid.jdbc.TeiidDriver",
+   "sampleUrl": "jdbc:teiid:{database}@mms://{host}:{port}",
+   "defaultPort": 31000,
+   "description": "Teiid JDBC Driver.",
+   "libraries": [
+    {
+     "maven": "org.teiid:teiid:jdbc:LATEST"
+    }
+   ]
+  },
+  {
+   "id": "elastic_search_jdbc",
+   "label": "Elasticsearch",
+   "className": "org.elasticsearch.xpack.sql.jdbc.EsDriver",
+   "sampleUrl": "jdbc:es://{host}:{port}/",
+   "defaultPort": 9200,
+   "description": "Elasticsearch JDBC driver",
+   "categories": [
+    "fulltext"
+   ],
+   "libraries": [
+    {
+     "maven": "org.elasticsearch.plugin:x-pack-sql-jdbc:8.17.1"
+    }
+   ]
+  },
+  {
+   "id": "open_distro_elastic_search_jdbc",
+   "label": "Open Distro Elasticsearch",
+   "className": "com.amazon.opendistroforelasticsearch.jdbc.Driver",
+   "sampleUrl": "jdbc:elasticsearch://https://{host}:{port}/",
+   "defaultPort": 443,
+   "description": "Opendistro Elasticsearch JDBC driver",
+   "categories": [
+    "fulltext"
+   ],
+   "libraries": [
+    {
+     "maven": "com.amazon.opendistroforelasticsearch.client:opendistro-sql-jdbc:1.1.0.0"
+    }
+   ]
+  },
+  {
+   "id": "greenplum-jdbc",
+   "label": "Greenplum",
+   "className": "org.postgresql.Driver",
+   "providerId": "postgresql",
+   "sampleUrl": "jdbc:postgresql://{host}[:{port}]/[{database}]",
+   "defaultPort": 5432,
+   "description": "Greenplum JDBC driver",
+   "categories": [
+    "analytic",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.postgresql:postgresql:42.7.2"
+    },
+    {
+     "maven": "net.postgis:postgis-jdbc:2.5.0",
+     "optional": true
+    },
+    {
+     "maven": "net.postgis:postgis-jdbc-jtsparser:2.5.0",
+     "optional": true
+    },
+    {
+     "maven": "net.postgis:postgis-geometry:2.5.0",
+     "optional": true
+    }
+   ]
+  },
+  {
+   "id": "cloudberry-jdbc",
+   "label": "Cloudberry",
+   "className": "org.postgresql.Driver",
+   "providerId": "postgresql",
+   "sampleUrl": "jdbc:postgresql://{host}[:{port}]/[{database}]",
+   "defaultPort": 5432,
+   "description": "Cloudberry JDBC driver",
+   "categories": [
+    "analytic",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.postgresql:postgresql:42.7.2"
+    },
+    {
+     "maven": "net.postgis:postgis-jdbc:2.5.0",
+     "optional": true
+    },
+    {
+     "maven": "net.postgis:postgis-jdbc-jtsparser:2.5.0",
+     "optional": true
+    },
+    {
+     "maven": "net.postgis:postgis-geometry:2.5.0",
+     "optional": true
+    }
+   ]
+  },
+  {
+   "id": "h2_server",
+   "label": "H2 Server",
+   "className": "org.h2.Driver",
+   "sampleUrl": "jdbc:h2:tcp://{host}[:{port}]/{database}",
+   "defaultPort": 9092,
+   "description": "H2 Server",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.h2database:h2:2.1.210"
+    }
+   ]
+  },
+  {
+   "id": "h2_embedded",
+   "label": "H2 Embedded",
+   "className": "org.h2.Driver",
+   "sampleUrl": "jdbc:h2:{file}",
+   "description": "H2 Embedded",
+   "categories": [
+    "embedded",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.h2database:h2:1.4.199"
+    }
+   ]
+  },
+  {
+   "id": "h2_embedded_v2",
+   "label": "H2 Embedded V.2",
+   "className": "org.h2.Driver",
+   "sampleUrl": "jdbc:h2:{file}",
+   "description": "H2 Embedded V.2",
+   "categories": [
+    "embedded",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.h2database:h2:2.1.210"
+    }
+   ]
+  },
+  {
+   "id": "h2gis_embedded",
+   "label": "H2GIS Embedded",
+   "className": "org.h2.Driver",
+   "sampleUrl": "jdbc:h2:{file}",
+   "description": "H2GIS Embedded",
+   "categories": [
+    "embedded",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.orbisgis:h2gis:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "h2gis_server",
+   "label": "H2GIS Server",
+   "className": "org.h2.Driver",
+   "sampleUrl": "jdbc:h2:tcp://{host}[:{port}]/{database}",
+   "defaultPort": 9092,
+   "description": "H2GIS Server",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.orbisgis:h2gis:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "sap_hana",
+   "label": "HANA",
+   "className": "com.sap.db.jdbc.Driver",
+   "sampleUrl": "jdbc:sap://{host}[:{port}]",
+   "defaultPort": 30015,
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.sap.cloud.db.jdbc:ngdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "apache_hive4",
+   "label": "Apache Hive 4+",
+   "className": "org.apache.hive.jdbc.HiveDriver",
+   "sampleUrl": "jdbc:hive2://{host}[:{port}][/{database}]",
+   "defaultPort": 10000,
+   "description": "Apache Hive JDBC",
+   "categories": [
+    "hadoop"
+   ],
+   "libraries": [
+    {
+     "maven": "org.apache.hive:hive-jdbc:4.0.1"
+    }
+   ]
+  },
+  {
+   "id": "microsoft",
+   "label": "SQL Server",
+   "className": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+   "sampleUrl": "jdbc:sqlserver://{host}[:{port}][;databaseName={database}]",
+   "defaultPort": 1433,
+   "defaultDatabase": "master",
+   "description": "Microsoft JDBC Driver for SQL Server (MSSQL)",
+   "categories": [
+    "sql"
+   ],
+   "promoted": 1,
+   "libraries": [
+    {
+     "maven": "com.microsoft.sqlserver:mssql-jdbc:12.8.0.jre11"
+    }
+   ]
+  },
+  {
+   "id": "azure",
+   "label": "Azure SQL Server",
+   "className": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+   "sampleUrl": "jdbc:sqlserver://{host};databaseName={database}",
+   "defaultPort": 1433,
+   "defaultDatabase": "master",
+   "description": "Microsoft JDBC Driver for SQL Server (MSSQL)",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.microsoft.sqlserver:mssql-jdbc:12.8.0.jre11"
+    }
+   ]
+  },
+  {
+   "id": "babelfish",
+   "label": "Babelfish via TDS (beta)",
+   "className": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+   "sampleUrl": "jdbc:sqlserver://{host};databaseName={database}",
+   "defaultPort": 1433,
+   "defaultDatabase": "master",
+   "description": "Microsoft JDBC Driver for SQL Server (MSSQL)",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.microsoft.sqlserver:mssql-jdbc:12.8.0.jre11"
+    }
+   ]
+  },
+  {
+   "id": "mssql_jtds_legacy",
+   "label": "SQL Server (Old driver, jTDS)",
+   "className": "net.sourceforge.jtds.jdbc.Driver",
+   "sampleUrl": "jdbc:jtds:sqlserver://{host}[:{port}][/{database}]",
+   "defaultPort": 1433,
+   "defaultDatabase": "master",
+   "description": "jTDS SQL Server (MSSQL) driver",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "net.sourceforge.jtds:jtds:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "sybase_jtds",
+   "label": "Sybase jTDS",
+   "className": "net.sourceforge.jtds.jdbc.Driver",
+   "sampleUrl": "jdbc:jtds:sybase://{host}[:{port}][/{database}]",
+   "defaultPort": 5000,
+   "defaultUser": "sa",
+   "description": "Sybase jTDS driver",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "net.sourceforge.jtds:jtds:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "mysql5",
+   "label": "MySQL 5 (Legacy)",
+   "className": "com.mysql.jdbc.Driver",
+   "sampleUrl": "jdbc:mysql://{host}[:{port}]/[{database}]",
+   "defaultPort": 3306,
+   "defaultUser": "root",
+   "description": "Driver for MySQL 5.x+",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "mysql:mysql-connector-java:5.1.49"
+    }
+   ]
+  },
+  {
+   "id": "mysql_ndb",
+   "label": "NDB Cluster",
+   "className": "com.mysql.jdbc.Driver",
+   "sampleUrl": "jdbc:mysql:loadbalance://{host}[:{port}]/[{database}]",
+   "defaultPort": 3306,
+   "defaultUser": "root",
+   "description": "Driver for MySQL NDB cluster",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.mysql:mysql-connector-j:8.2.0"
+    }
+   ]
+  },
+  {
+   "id": "starRocks",
+   "label": "StarRocks",
+   "className": "com.mysql.cj.jdbc.Driver",
+   "sampleUrl": "jdbc:mysql://{host}[:{port}]/[{database}]",
+   "defaultPort": 9030,
+   "defaultUser": "root",
+   "description": "Driver for MySQL 8 and StarRocks",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.mysql:mysql-connector-j:8.3.0"
+    }
+   ]
+  },
+  {
+   "id": "alipay_oceanbase",
+   "label": "OceanBase",
+   "className": "com.mysql.jdbc.Driver",
+   "sampleUrl": "jdbc:mysql://{host}:{port}[/{database}]",
+   "defaultPort": 2881,
+   "description": "Driver for OceanBase-MySQL",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.mysql:mysql-connector-j:8.2.0"
+    }
+   ]
+  },
+  {
+   "id": "ocient_jdbc",
+   "label": "Ocient",
+   "className": "com.ocient.jdbc.JDBCDriver",
+   "sampleUrl": "jdbc:ocient://{host}:{port}/{database}",
+   "defaultPort": 4050,
+   "description": "Ocient JDBC driver",
+   "categories": [
+    "analytic",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.ocient:ocient-jdbc4:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "oracle_thin",
+   "label": "Oracle",
+   "className": "oracle.jdbc.OracleDriver",
+   "sampleUrl": "jdbc:oracle:thin:@{host}[:{port}]/{database}",
+   "defaultPort": 1521,
+   "defaultDatabase": "ORCL",
+   "defaultUser": "system",
+   "description": "Oracle JDBC driver",
+   "categories": [
+    "sql"
+   ],
+   "promoted": 1,
+   "libraries": [
+    {
+     "maven": "com.oracle.database.jdbc:ojdbc11:23.2.0.0"
+    },
+    {
+     "maven": "com.oracle.database.nls:orai18n:23.2.0.0"
+    },
+    {
+     "maven": "com.oracle.database.xml:xdb6:18.3.0.0"
+    },
+    {
+     "maven": "com.oracle.database.xml:xmlparserv2:23.2.0.0"
+    }
+   ]
+  },
+  {
+   "id": "postgres-timescale-jdbc",
+   "label": "TimescaleDB",
+   "className": "org.postgresql.Driver",
+   "providerId": "postgresql",
+   "sampleUrl": "jdbc:postgresql://{host}[:{port}]/[{database}]",
+   "defaultPort": 5432,
+   "defaultDatabase": "postgres",
+   "defaultUser": "postgres",
+   "description": "Timescale JDBC driver",
+   "categories": [
+    "timeseries"
+   ],
+   "libraries": [
+    {
+     "maven": "org.postgresql:postgresql:42.7.2"
+    }
+   ]
+  },
+  {
+   "id": "postgres-yellowbrick-jdbc",
+   "label": "Yellowbrick",
+   "className": "org.postgresql.Driver",
+   "providerId": "postgresql",
+   "sampleUrl": "jdbc:postgresql://{host}[:{port}]/[{database}]",
+   "defaultPort": 5432,
+   "description": "Yellowbrick JDBC driver",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.postgresql:postgresql:42.7.2"
+    }
+   ]
+  },
+  {
+   "id": "postgres-yugabytedb-jdbc",
+   "label": "YugabyteDB",
+   "className": "org.postgresql.Driver",
+   "providerId": "postgresql",
+   "sampleUrl": "jdbc:postgresql://{host}[:{port}]/[{database}]",
+   "defaultPort": 5433,
+   "defaultDatabase": "yugabyte",
+   "defaultUser": "yugabyte",
+   "description": "YugabyteDB JDBC driver",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.postgresql:postgresql:42.7.2"
+    }
+   ]
+  },
+  {
+   "id": "postgres-cockroach-jdbc",
+   "label": "CockroachDB",
+   "className": "org.postgresql.Driver",
+   "providerId": "postgresql",
+   "sampleUrl": "jdbc:postgresql://{host}[:{port}]/[{database}]",
+   "defaultPort": 26257,
+   "defaultDatabase": "system",
+   "defaultUser": "root",
+   "description": "CockroachDB JDBC driver",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.postgresql:postgresql:42.7.2"
+    }
+   ]
+  },
+  {
+   "id": "postgres-materialize-jdbc",
+   "label": "Materialize",
+   "className": "org.postgresql.Driver",
+   "providerId": "postgresql",
+   "sampleUrl": "jdbc:postgresql://{host}[:{port}]/[{database}]",
+   "defaultPort": 6875,
+   "defaultDatabase": "materialize",
+   "defaultUser": "materialize",
+   "description": "Materialize JDBC driver",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.postgresql:postgresql:42.7.2"
+    }
+   ]
+  },
+  {
+   "id": "postgres-redshift-jdbc",
+   "label": "Redshift",
+   "className": "com.amazon.redshift.jdbc42.Driver",
+   "sampleUrl": "jdbc:redshift://{host}:{port}/{database}",
+   "defaultPort": 5439,
+   "defaultDatabase": "dev",
+   "defaultUser": "awsuser",
+   "description": "AWS Redshift JDBC driver",
+   "categories": [
+    "analytic",
+    "hadoop",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.amazon.redshift:redshift-jdbc42:2.1.0.8"
+    }
+   ]
+  },
+  {
+   "id": "postgres-gcloud-jdbc",
+   "label": "Google Cloud SQL - PostgreSQL",
+   "className": "org.postgresql.Driver",
+   "providerId": "postgresql",
+   "sampleUrl": "jdbc:postgresql:///[{database}]?cloudSqlInstance={host}",
+   "defaultPort": 5432,
+   "description": "Google Cloud SQL PostgreSQL JDBC driver",
+   "categories": [
+    "cloud",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.postgresql:postgresql:42.7.2"
+    },
+    {
+     "maven": "com.google.cloud.sql:postgres-socket-factory:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "postgres-cratedb-jdbc",
+   "label": "CrateDB",
+   "className": "org.postgresql.Driver",
+   "providerId": "postgresql",
+   "sampleUrl": "jdbc:postgresql://{host}[:{port}]/[{database}]",
+   "defaultPort": 5432,
+   "defaultDatabase": "crate",
+   "defaultUser": "admin",
+   "description": "CrateDB JDBC driver",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.postgresql:postgresql:42.7.2"
+    }
+   ]
+  },
+  {
+   "id": "postgres-risingwave-jdbc",
+   "label": "RisingWave",
+   "className": "org.postgresql.Driver",
+   "providerId": "postgresql",
+   "sampleUrl": "jdbc:postgresql://{host}[:{port}]/[{database}]",
+   "defaultPort": 4566,
+   "defaultDatabase": "dev",
+   "defaultUser": "root",
+   "description": "RisingWave JDBC driver",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "org.postgresql:postgresql:42.7.2"
+    }
+   ]
+  },
+  {
+   "id": "snowflake_jdbc",
+   "label": "Snowflake",
+   "className": "net.snowflake.client.jdbc.SnowflakeDriver",
+   "sampleUrl": "jdbc:snowflake://{host}[:port]/?[db={database}]",
+   "defaultPort": 443,
+   "description": "Snowflake JDBC driver",
+   "categories": [
+    "analytic",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "net.snowflake:snowflake-jdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "spanner_jdbc_official",
+   "label": "Google Cloud Spanner",
+   "className": "com.google.cloud.spanner.jdbc.JdbcDriver",
+   "sampleUrl": "jdbc:cloudspanner:/projects/my-project/instances/my-instance/databases/my-database",
+   "description": "Google Cloud Spanner Open Source JDBC Driver",
+   "categories": [
+    "cloud",
+    "hadoop",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.google.cloud:google-cloud-spanner-jdbc:2.15.5"
+    }
+   ]
+  },
+  {
+   "id": "spanner_jdbc",
+   "label": "Google Cloud Spanner (Deprecated)",
+   "className": "nl.topicus.jdbc.CloudSpannerDriver",
+   "sampleUrl": "jdbc:cloudspanner://localhost",
+   "description": "Google Spanner JDBC community (Topicus) driver (Deprecated, use the officially supported driver instead)",
+   "categories": [
+    "cloud",
+    "hadoop",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "nl.topicus:spanner-jdbc:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "tidb",
+   "label": "TiDB",
+   "className": "com.mysql.cj.jdbc.Driver",
+   "sampleUrl": "jdbc:mysql://{host}[:{port}]/[{database}]",
+   "defaultPort": 4000,
+   "defaultUser": "root",
+   "description": "TiDB Driver (MySQL Connector/J 8.0)",
+   "categories": [
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com/mysql:mysql-connector-j:RELEASE"
+    }
+   ]
+  },
+  {
+   "id": "vertica-jdbc-8",
+   "label": "Vertica",
+   "className": "com.vertica.jdbc.Driver",
+   "sampleUrl": "jdbc:vertica://{host}:{port}/[{database}]",
+   "defaultPort": 5433,
+   "description": "JDBC driver for Vertica database",
+   "categories": [
+    "analytic",
+    "sql"
+   ],
+   "libraries": [
+    {
+     "maven": "com.vertica.jdbc:vertica-jdbc:RELEASE"
+    }
+   ]
+  }
+ ]
+}

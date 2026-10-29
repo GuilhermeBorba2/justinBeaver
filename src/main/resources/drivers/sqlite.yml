@@ -1,0 +1,11 @@
+drivers:
+  - id: sqlite-jdbc
+    label: SQLite
+    className: org.sqlite.JDBC
+    sampleUrl: "jdbc:sqlite:{file}"
+    dialect: sqlite
+    categories: [sql, embedded]
+    promoted: 1
+    description: "Embedded file database"
+    libraries:
+      - maven: "org.xerial:sqlite-jdbc:3.47.1.0"

@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: justinbeaver
+
+server:
+  # Local desktop-style client: the API can open arbitrary DB connections, so keep it on loopback.
+  address: 127.0.0.1
+  port: 8080
+
+justinbeaver:
+  google:
+    # App-owned desktop OAuth client; configured by the developer, never by end users.
+    client-id: ${JB_GOOGLE_CLIENT_ID:}
+    client-secret: ${JB_GOOGLE_CLIENT_SECRET:}
+  drivers:
+    # Bundled descriptors live in classpath:drivers/*.yml. Users can add/override descriptors here.
+    extra-dir: ${user.home}/.justinbeaver/drivers
+  maven:
+    local-repo: ${user.home}/.justinbeaver/driver-cache
+    repositories:
+      - id: maven-central
+        url: https://repo1.maven.org/maven2/
+
+logging:
+  level:
+    # sshj reports the normal end of a forwarded stream (tunnel closed) as ERROR
+    net.schmizz.concurrent.Promise: "OFF"
+    net.schmizz.sshj.common.StreamCopier: "OFF"

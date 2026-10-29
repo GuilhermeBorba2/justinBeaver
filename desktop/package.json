@@ -1,0 +1,17 @@
+{
+  "name": "justinbeaver-desktop",
+  "productName": "JustinBeaver",
+  "version": "0.1.0",
+  "private": true,
+  "description": "JustinBeaver desktop application",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test *.test.cjs",
+    "test:backend": "node smoke.cjs"
+  },
+  "devDependencies": {
+    "electron": "45.0.0",
+    "@electron/packager": "20.3.0"
+  }
+}
