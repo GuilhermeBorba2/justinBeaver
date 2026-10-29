@@ -4,7 +4,7 @@
 
 # JustinBeaver
 
-**Um cliente de banco de dados desktop no estilo do DBeaver.**
+**Um cliente de banco de dados desktop, universal e leve.**
 Navegue, consulte e edite bancos via JDBC, com drivers baixados sob demanda.
 
 ![Java](https://img.shields.io/badge/Java-21-orange) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5-6db33f) ![Vue](https://img.shields.io/badge/Vue-3-42b883) ![Electron](https://img.shields.io/badge/Electron-45-47848f) ![Plataformas](https://img.shields.io/badge/Linux%20%7C%20Windows-lightgrey)
@@ -23,8 +23,8 @@ class loader isolado cada. O instalador já leva Electron e um Java próprio: qu
 
 **Conexões**
 - Mais de 90 drivers (PostgreSQL, MySQL, MariaDB, SQL Server, Oracle, SQLite, H2, DuckDB, ClickHouse…) e drivers próprios via YAML
-- Túnel SSH e SSL, tipos de conexão (DEV/PROD), modo somente leitura, pastas, importar conexões do DBeaver
-- Seletor de Database/Schema em duas listas, como no DBeaver
+- Túnel SSH e SSL, tipos de conexão (DEV/PROD), modo somente leitura, pastas, importar conexões de outro cliente
+- Seletor de Database/Schema em duas listas
 
 **Editor SQL**
 - Autocomplete (tabelas e colunas), formatação, plano de execução, histórico, scripts salvos, parâmetros
@@ -45,8 +45,6 @@ class loader isolado cada. O instalador já leva Electron e um Java próprio: qu
 - Cor de destaque e de fundo configuráveis, tema claro/escuro, interface em **português e inglês**
 - Tela de carregamento ao abrir o app
 - Salvar/importar **scripts e conexões no Google Drive** (criptografado com sua senha de sincronização)
-
-O que existe em relação ao DBeaver, comando por comando: [docs/dbeaver-feature-map.md](docs/dbeaver-feature-map.md).
 
 ## Instalar (usuário final)
 
